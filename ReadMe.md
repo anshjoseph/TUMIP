@@ -14,13 +14,7 @@ Payload
         <-awk type(8)-><-Flag-><--UDP PORT(16)-->
 ```
 
-## Video Tranmistion Process(UDP)
-Payload Header(size 32 bits)
-- Request: 
-```
-        <--------------user_id(32)-------------->
-        <-req type(8)-><-Flag-><--Data Len(16)-->
-```
+
 
 ## Chat With BOT
 Payload Header(size 32 bits)
@@ -48,11 +42,7 @@ Payload Header(size 32 bits)
                 <td>0000 0000</td>
                 <td>you have to this request at time of connection</td>
         </tr>
-        <tr>
-                <td>0000 0010</td>
-                <td>0000 0001</td>
-                <td>you have to this request at time of sending video frame</td>
-        </tr>
+
         <tr>
                 <td>0000 0011</td>
                 <td>0000 0000</td>
