@@ -42,7 +42,6 @@ Payload Header(size 32 bits)
                 <td>0000 0000</td>
                 <td>you have to this request at time of connection</td>
         </tr>
-
         <tr>
                 <td>0000 0011</td>
                 <td>0000 0000</td>
